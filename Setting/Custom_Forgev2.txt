@@ -1,1 +1,1 @@
-https://github.com/zanllp/sd-webui-infinite-image-browsing
+git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete /content/SDVN/extensions/a1111-sd-webui-tagcomplete
