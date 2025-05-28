@@ -2120,53 +2120,6 @@
       ]
     },
     {
-      "id": 264,
-      "type": "easy applyFooocusInpaint",
-      "pos": [
-        11647,
-        887
-      ],
-      "size": {
-        "0": 315,
-        "1": 102
-      },
-      "flags": {},
-      "order": 345,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 318
-        },
-        {
-          "name": "latent",
-          "type": "LATENT",
-          "link": 324
-        }
-      ],
-      "outputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "links": [
-            325
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "easy applyFooocusInpaint"
-      },
-      "widgets_values": [
-        "fooocus_inpaint_head",
-        "inpaint_v26 (1.32GB)"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 247,
       "type": "BrushNet",
       "pos": [
@@ -11718,29 +11671,6 @@
       ],
       "color": "#232",
       "bgcolor": "#353"
-    },
-    {
-      "id": 257,
-      "type": "Note",
-      "pos": [
-        12599,
-        1445
-      ],
-      "size": {
-        "0": 426.0008239746094,
-        "1": 160.70648193359375
-      },
-      "flags": {},
-      "order": 51,
-      "mode": 4,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "- Xem chi tiết tại : https://github.com/Acly/comfyui-inpaint-nodes\n- Tăng cường, cải thiện khả năng nội suy inpaint SDXL\n- Lưu ý: Chạy model inpaint fooocus hiện đang làm hỏng cách hoạt động của luồng model trong phiên hiện tại"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
     },
     {
       "id": 231,
@@ -25826,18 +25756,6 @@
       "bounding": [
         10663,
         -271,
-        2391,
-        940
-      ],
-      "color": "#3f789e",
-      "font_size": 24,
-      "locked": false
-    },
-    {
-      "title": "Inpaint đặc biệt | Fooocus cho SDXL",
-      "bounding": [
-        10661,
-        804,
         2391,
         940
       ],
